@@ -1,0 +1,127 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+  
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.team-image {
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+ 
+  .header__menu__link {
+    position: relative;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+
+  /* Estilo y animación para el botón "Cerrar Sesión" */
+  .header__menu__item .header__menu__link:last-child {
+    padding: 10px 20px;
+    border: 3px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .header__menu__item .header__menu__link:last-child:hover {
+    background-color: #1a64d3;
+    color: rgb(255, 255, 255);
+    border-color: #2b2d2e;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #7C9FA9 ;
+  }
+  
+  .header__logo {
+    font-size: 1.3em;
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: white;
+    text-decoration: none;
+  }
+
+  
+  .header__menu {
+    margin-left: auto;
+  }
+  
+  .header__menu__list, .footer__menu__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header__menu__link {
+    margin-left: 50px;
+  }
+
+  header.header{
+    background-color: #4B7D8A;
+  }

@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: scroll ;
+}
+
+.header__menu__link {
+    position: relative;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+
+  
+  /* Estilo y animación para el botón "Cerrar Sesión" */
+  .header__menu__item .header__menu__link:last-child {
+    padding: 10px 20px;
+    border: 3px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .header__menu__item .header__menu__link:last-child:hover {
+    background-color: #1a64d3;
+    color: rgb(255, 255, 255);
+    border-color: #2b2d2e;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #7C9FA9 ;
+  }
+  
+  .header__logo {
+    font-size: 1.3em;
+    font-weight: 900;
+    letter-spacing: -1px;
+  }
+
+  
+  .header__menu {
+    margin-left: auto;
+  }
+  
+  .header__menu__list, .footer__menu__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header__menu__link {
+    margin-left: 50px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+main {
+    padding: 2em;
+    margin: 20px;
+    background-color: white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+th, td {
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: left;
+}
+td{
+  color: #000000;
+}
+
+th {
+    background-color: #2b2d2e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.match-image {
+    width: 380px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 17px;
+}
+
+/* Estilo para el botón de "Volver" similar al del banner */
+.back-button {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #000000;
+    background-color: transparent;
+    border: 3px solid white;;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    position: absolute; /* Para posicionar el botón a la izquierda */
+    left: 20px; /* Ajusta según sea necesario */
+    top: 30px; /* Ajusta según sea necesario */
+  }
+  
+
+  header.header{
+    background-color: #4B7D8A;
+  }
+  

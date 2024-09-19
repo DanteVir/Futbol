@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica Neue, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./Iloveunac.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: #6671749a;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 25px;
+}
+
+label, P{
+    font-size: 17px;
+    color: white;
+    margin-bottom: 1OPX;
+}
+
+input {
+    padding: 17px 11px;
+    border: 1px solid #00ADEF;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    background-color: #fafafa;
+    outline: none;
+    color: #00ADEF;
+    font-size: 17px;
+}
+
+.btn-1{
+    background-color: #00ADEF;
+    font-size: 15px;
+    color: #fafafc;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: #00ADEF;
+}
+
+.remember{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+@media(max-width:991px) {
+    
+    body {
+        padding: 30px;
+    }
+
+    form{
+        width: 100%;
+    }
+    
+}
+.header__menu__link{
+    color: #fafafa;
+}
